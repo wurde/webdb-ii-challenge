@@ -31,7 +31,7 @@ app.use(express.json())
  */
 
 app.use('/', require('./routes/root_router.js'))
-// app.use('/zoos', require('./routes/zoos_router.js'))
+app.use('/zoos', require('./routes/zoos_router.js'))
 
 /**
  * Start server
