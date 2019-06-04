@@ -6,7 +6,7 @@
   "scripts": {
     "server": "nodemon index.js"
   },
-  "author": "Lambda School",
+  "author": ["Lambda School", "Andy Bettisworth"],
   "dependencies": {
     "express": "^4.17.1",
     "helmet": "^3.18.0",
