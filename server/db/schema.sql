@@ -5,4 +5,9 @@ CREATE TABLE zoos (
   name text NOT NULL UNIQUE
 );
 
+CREATE TABLE bears (
+  id integer PRIMARY KEY AUTOINCREMENT,
+  name text NOT NULL UNIQUE
+);
+
 COMMIT TRANSACTION;
