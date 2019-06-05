@@ -2,14 +2,17 @@
   "name": "webdb-ii-challenge",
   "version": "1.0.0",
   "description": "Web DB II Module Challenge",
-  "main": "index.js",
+  "main": "server/app.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "start": "node server/app.js",
+    "start:dev": "nodemon server/app.js"
   },
-  "author": "Lambda School",
+  "author": ["Lambda School", "Andy Bettisworth"],
   "dependencies": {
     "express": "^4.17.1",
-    "helmet": "^3.18.0"
+    "helmet": "^3.18.0",
+    "knex": "^0.17.3",
+    "sqlite3": "^4.0.8"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
